@@ -45,17 +45,16 @@
   
   section p {
     font-size: 15px;
-    color: var(--background-color1)
-    max-width: 600px;
-    line-height: 23px;
+    color: var(--font-color1);
+    line-height: 1.5rem;
   }
   
   code {
     display: block;
-    border-radius: 10px;
-    margin: 10px 10px 10px 30px;
-    padding: 10px;
-    max-width: 600px;
+    border-radius: 2rem;
+    margin: 3rem auto;
+    padding: 1rem;
+    max-width: 300px;
     font-size: 0.8rem;
     background-color: var(--background-color1)
   }
@@ -111,6 +110,10 @@
     font-size: 0.8rem;
     color: var(--background-color2);
     font-style: italic;
+  }
+
+  li {
+    padding: 1.5rem;
   }
   
   @media (min-width: 350px)
