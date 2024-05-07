@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale:1.0" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header class="nav-header">CSS Properties</header>
+      <a href="#font_size" class="nav-link">Font Size</a>
+      <a href="#background_color" class="nav-link">Background Color</a>
+      <a href="#text_alignment"class="nav-link">Text Alignment</a>
+      <a href="#padding" class="nav-link">Padding</a>
+      <a href="#color" class="nav-link">Color</a>
+      <p class="created-by">Created By Stefan D Moller</p>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="font_size">
+        <header id="font_size_head" class="property-head">Font Size</header>
+        <p>The font-size property allows you to customize the size of text within HTML elements. You can specify the font size in various units such as pixels (px), ems (em), or percentages (%). For example, to make a header text larger, you can set font-size: 30px;</p>
+        <p>Here’s an example of styling a header using CSS:</p>
+        <code>
+  <span class="selector">.header</span> {<br>
+    <span class="css-property">padding:</span> 60px;<br>
+    <span class="css-property">text-align:</span> center;<br>
+    <span class="css-property">background-color:</span> #1abc9c;<br>
+    <span class="css-property">color:</span> white;<br>
+    <span class="css-property">font-size:</span> 30px;
+          }
+        </code>
+        <li>list</li>
+      </section>
+            <section class="main-section" id="background_color">
+        <header id="background_color_head" class="property-head">Background Color</header>
+        <p>The background-color property allows you to change the background color of an element. In the header example above, we set the background color to green using background-color: #1abc9c;</p>
+        <p>You can experiment with different colors or use named colors like red, blue, or yellow. Remember to choose colors that provide good contrast with the text for readability.</p>
+        <code>
+          <span class="css-property">background-color:</span> #1abc9c;
+        </code>
+        <li>background-color: #1abc9c;</li>
+      </section>
+            <section class="main-section" id="text_alignment">
+        <header id="text_alignment_head" class="property-head">Text Alignment</header>
+        <p>Adjusting the alignment of header text is essential for a clean layout. Use the text-align property to control alignment</p>
+        <p>These examples demonstrate centering, left alignment, right alignment, and justified text:</p>
+        <code>
+          <span class="css-property">text-align:</span> right
+        </code>
+        <li>list</li>
+      </section>
+            <section class="main-section" id="padding">
+        <header id="padding_head" class="property-head">Padding</header>
+        <p>The padding property adds space around the content within an element. In our header, we set a large padding using padding: 60px;. Adjust this value to create the desired spacing.
+        </p>
+        <p>Padding helps prevent text from touching the edges of the container, providing a visually pleasing layout.
+        </p>
+        <code>
+          <span class="css-property"> padding:</span> 60px; 
+        </code>
+        <li>list</li>
+      </section>
+            <section class="main-section" id="color">
+        <header id="color_head" class="property-head">Color</header>
+        <p>The color property defines the text color. By setting color: white; in our header example, we ensure that the text appears in white against the green background</p>
+        <p>Remember that if you set the color for the body text, all headings within the body will inherit the same color unless specified otherwise</p>
+        <code>
+          <span class="css-property">color:</span> white;
+        </code>
+        <li>color: white;</li>
+      </section>
+      <div class="nav-container">
+      </div>
+
+    </main>
+  </body>
+</html>

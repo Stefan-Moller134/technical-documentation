@@ -1,0 +1,123 @@
+  :root {
+    --font-color1: black;
+    --font-color2: white;
+    --font-color3: #CC2936;
+    --background-color1: #B5FFE1;
+    --background-color2: white;
+    --background-color3: #388697;
+    --background-color4: #08415C;
+    --background-color5: #EBBAB9;
+  }
+
+  * {
+    box-sizing: border-box;
+    font-family: Poppins;
+    }
+  
+  html {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+   }
+
+  body {
+    margin: 0;
+    background-color: var(--background-color2);
+  }
+  
+  #main-doc {
+    display: fixed;
+    margin-left: 225px;
+    margin-right: auto;
+    padding: 10px 10px;
+  }
+
+  .property-head {
+    color: var(--background-color4);
+    padding-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  section {
+    display: block;
+  
+  }
+  
+  section p {
+    font-size: 15px;
+    color: var(--background-color1)
+    max-width: 600px;
+    line-height: 23px;
+  }
+  
+  code {
+    display: block;
+    border-radius: 10px;
+    margin: 10px 10px 10px 30px;
+    padding: 10px;
+    max-width: 600px;
+    font-size: 0.8rem;
+    background-color: var(--background-color1)
+  }
+
+  code > .selector {
+    color: var(--font-color3);
+  }
+
+  code > .css-property {
+    color: blue
+  }
+  
+  #navbar {
+    position: fixed;
+    margin-left: 0;
+    padding-left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: var(--background-color4);
+    border-right: 1px solid var(--background-color3);
+  }
+  
+  .nav-header {
+    font-size: 1.5rem;
+    padding: 0.73rem 0.73rem 0.73rem 0.73rem;
+    text-align: center;
+    color: var(--font-color2);
+    border-bottom: solid;
+    border-color: var(--background-color3);
+  }
+  
+  .nav-link {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    text-align: left;
+    font-weight: light;
+    color: var(--font-color2);
+    border-bottom: solid;
+    border-color: var(--background-color3);
+    
+  }
+
+  .nav-link:hover {
+    background-color: var(--background-color3);
+    color: var(--font-color1);
+  }
+
+  .created-by {
+    position: relative;
+    text-align: center;
+    top: 12rem;
+    font-size: 0.8rem;
+    color: var(--background-color2);
+    font-style: italic;
+  }
+  
+  @media (min-width: 350px)
+  #navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  
